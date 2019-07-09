@@ -1,14 +1,32 @@
+:root {
+    --background_color_one: #fff;
+
+}
+
 html, body{
     height: 100%;
 }
 
 body {
     margin: 0;
+    background: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .wrapper {
     width: 100%;
     max-width: 90rem;
     margin: 0 auto;
+    min-height: 10rem;
+    background-color: var(--background_color_one);
+    border-right: 1px snow;
+    border-right: 1px snow;
+    box-sizing: border-box
+}
 
-};
+.inner{
+    width: 100%;
+    max-width: 73.125rem;
+    margin: 0 auto;
+    height:inherit ;
+}
