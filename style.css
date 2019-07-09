@@ -28,15 +28,37 @@ body {
     width: 100%;
     max-width: 73.125rem;
     margin: 0 auto;
-    height: inherit ;
+    height: inherit;
 }
+
+.header_inner{
+display: flex;
+text-align: center;
+}
+
 .header {
     font-family: 'Cinzel Decorative', cursive;
     text-align: center;
     font-size: 300%;
     margin-top: 3rem;
 }
-.page_menu{
-    color: white;
-    
+
+.page_menu {
+    text-align: center; 
+}
+
+.page_menu a{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 200%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.page_menu a.active, .page_menu a:hover {
+    background: #000000;
+    box-shadow: 0px 15px 40px #fff;
+    border-radius: 5px;
+    color: #fff;
+
 }
