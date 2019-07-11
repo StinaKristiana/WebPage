@@ -99,8 +99,18 @@ text-align: center;
 
 .text_two {
     font-family: lora;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-align: center;
     border: 1px solid rgb(255, 255, 255);
+}
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+p {
+    color: #fff;
+    text-align: center;
 }
