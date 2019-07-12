@@ -1,4 +1,2 @@
-# Nothing Special
-This is nothing
-1234565
-<div><>
+My very Personal Blog 
+( :
